@@ -26,7 +26,6 @@ class item {
         removeButton.innerHTML = "REMOVE";
         removeButton.classList.add('removeButton');
 
-        item_input.innerHTML = localStorage.getItem("value");
 
         ToDos.appendChild(itemBox);
 
@@ -39,10 +38,6 @@ class item {
         editButton.addEventListener('click', () => this.edit(input));
 
         removeButton.addEventListener('click', () => this.remove(itemBox));
-
-        function display() {
-            localStorage.setItem('value', item_input.value);
-        }
     }
 
 
