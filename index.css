@@ -1,0 +1,161 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+    background-image: linear-gradient(to right, rgb(128, 128, 128), rgb(0, 100, 0))
+}
+
+.container {
+    display: block;
+    width: 500px;
+    margin: 10px auto 100px;
+    background-color: #fff;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.new-task-form {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li  {
+    float: left;
+}
+
+li,
+h3 {
+    clear: both;
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+button {
+    border: 0px;
+    color: black;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: #333;
+}
+
+
+h3,
+label[for="new-task-input"] {
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 20px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#new-task-input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    outline: none;
+    width: 400px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 20px;
+}
+
+input[type="text"]:focus {
+    color: #333;
+}
+
+/* New Task */
+
+label[for="new-task"] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+#new-task {
+    width: 318px;
+}
+
+.first-task {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-button {
+    background-color: rgb(85, 107, 47);
+    width: 60px;
+}
+
+.removeButton {
+    background-color: rgb(0, 100, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.editButton {
+    align-items: right;
+    margin-left: 2rem;
+    background-color: rgb(85, 107, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.empty {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_input {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    outline: none;
+    width: 250px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 20px;
+}
